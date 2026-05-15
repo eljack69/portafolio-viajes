@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio — 7 landings de viajes</title>
+  <meta name="description" content="Portafolio de 7 landing pages de agencias de viajes ficticias: distintos destinos, estilos visuales y arquitecturas de página." />
+
+  <meta property="og:title" content="Portafolio — 7 landings de viajes" />
+  <meta property="og:description" content="Siete landings completas con marca, paleta e historia visual propia." />
+  <meta property="og:image" content="https://eljack69.github.io/portafolio-viajes/og.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="canonical" href="https://eljack69.github.io/portafolio-viajes/" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <a class="nav__brand" href="#inicio">
+      <span class="nav__mark" aria-hidden="true">◐</span>
+      <span class="nav__name">PORTAFOLIO</span>
+      <span class="nav__suffix">/ viajes</span>
+    </a>
+    <nav class="nav__menu" aria-label="Menú">
+      <a href="#sitios">Sitios</a>
+      <a href="#stack">Stack</a>
+      <a href="#proceso">Proceso</a>
+      <a href="https://github.com/eljack69" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero__inner">
+        <p class="hero__tag">2026 · DEMO · ES</p>
+        <h1 class="hero__title">
+          Siete agencias.<br/>
+          <em>Siete maneras</em> de contar un viaje.
+        </h1>
+        <p class="hero__lede">
+          Colección de landings estáticas: cada una con su marca ficticia, paleta, tipografía
+          y arquitectura visual. Construidas con HTML + CSS + JS sin frameworks, desplegadas
+          en GitHub Pages.
+        </p>
+        <div class="hero__meta">
+          <span><strong>7</strong> landings</span>
+          <span><strong>7</strong> destinos</span>
+          <span><strong>0</strong> dependencias build</span>
+          <span><strong>100%</strong> estático</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SITIOS -->
+    <section class="sites" id="sitios" aria-label="Sitios del portafolio">
+      <div class="sites__head">
+        <h2>Los sitios</h2>
+        <p>Cada tarjeta abre la versión publicada en GitHub Pages. El código fuente está en repos individuales bajo <code>eljack69/</code>.</p>
+      </div>
+
+      <ol class="sites__grid" role="list">
+
+        <!-- 1 KOMODO -->
+        <li class="site" style="--tone-1:#07080a; --tone-2:#d4a534;">
+          <a class="site__card" href="https://eljack69.github.io/komodo-travel/" target="_blank" rel="noopener">
+            <div class="site__media">
+              <img src="https://images.unsplash.com/photo-1559628233-eb1bbc6e6cee?auto=format&fit=crop&w=900&q=80" alt="Bungalows boutique al amanecer en isla tropical" loading="lazy" />
+            </div>
+            <div class="site__body">
+              <div class="site__head">
+                <span class="site__num">01</span>
+                <span class="site__region">Sudeste asiático</span>
+              </div>
+              <h3 class="site__title">Komodo Travel</h3>
+              <p class="site__pitch">Viajes boutique a Indonesia, Tailandia y Vietnam. Estética oscura con acento dorado, tipo bitácora aristocrática.</p>
+              <ul class="site__chips" aria-label="Paleta">
+                <li style="background:#07080a"></li>
+                <li style="background:#16191f"></li>
+                <li style="background:#d4a534"></li>
+                <li style="background:#f1c668"></li>
+                <li style="background:#f5ecd6"></li>
+              </ul>
+              <p class="site__meta"><span>Oscuro + oro</span><span>Cinzel / Inter</span><span>eljack69/komodo-travel</span></p>
+            </div>
+            <span class="site__cta">Visitar →</span>
+          </a>
+        </li>
+
+        <!-- 2 SELVA / KALIMANTAN -->
+        <li class="site" style="--tone-1:#1e4034; --tone-2:#e0322a;">
+          <a class="site__card" href="https://eljack69.github.io/kalimantan-travel/" target="_blank" rel="noopener">
+            <div class="site__media">
+              <img src="https://images.unsplash.com/photo-1502786129293-79981df4e689?auto=format&fit=crop&w=900&q=80" alt="Vista aérea de río en jungla tropical" loading="lazy" />
+            </div>
+            <div class="site__body">
+              <div class="site__head">
+                <span class="site__num">02</span>
+                <span class="site__region">Borneo · Kalimantan</span>
+              </div>
+              <h3 class="site__title">Selva Travel</h3>
+              <p class="site__pitch">Expediciones por la jungla indonesia. Verde bosque con acento rojo, paginador vertical 18-22 y vibe documental.</p>
+              <ul class="site__chips" aria-label="Paleta">
+                <li style="background:#1e4034"></li>
+                <li style="background:#0e1411"></li>
+                <li style="background:#e0322a"></li>
+                <li style="background:#ff4e3f"></li>
+                <li style="background:#f4f5f1"></li>
+              </ul>
+              <p class="site__meta"><span>Verde + rojo</span><span>Playfair / Inter</span><span>eljack69/kalimantan-travel</span></p>
+            </div>
+            <span class="site__cta">Visitar →</span>
+          </a>
+        </li>
+
+        <!-- 3 CUMBRE ANDINA -->
+        <li class="site" style="--tone-1:#b4452a; --tone-2:#d6a437;">
+          <a class="site__card" href="https://eljack69.github.io/cumbre-andina/" target="_blank" rel="noopener">
+            <div class="site__media">
+              <img src="https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=900&q=80" alt="Vista panorámica de Machu Picchu al amanecer" loading="lazy" />
+            </div>
+            <div class="site__body">
+              <div class="site__head">
+                <span class="site__num">03</span>
+                <span class="site__region">Andes · Perú/Bolivia/Chile</span>
+              </div>
+              <h3 class="site__title">Cumbre Andina</h3>
+              <p class="site__pitch">Tours boutique por los Andes. Estética editorial cálida, papel arcilla, tipografía serif de revista premium impresa.</p>
+              <ul class="site__chips" aria-label="Paleta">
+                <li style="background:#f5ede0"></li>
+                <li style="background:#b4452a"></li>
+                <li style="background:#c95a35"></li>
+                <li style="background:#d6a437"></li>
+                <li style="background:#2b1d14"></li>
+              </ul>
+              <p class="site__meta"><span>Terracota + crema</span><span>Fraunces / Inter</span><span>eljack69/cumbre-andina</span></p>
+            </div>
+            <span class="site__cta">Visitar →</span>
+          </a>
+        </li>
+
+        <!-- 4 BOREAL ATLAS -->
+        <li class="site" style="--tone-1:#0a1929; --tone-2:#34f5c5;">
+          <a class="site__card" href="https://eljack69.github.io/boreal-atlas/" target="_blank" rel="noopener">
+            <div class="site__media">
+              <img src="https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=900&q=80" alt="Aurora boreal sobre montañas nevadas" loading="lazy" />
+            </div>
+            <div class="site__body">
+              <div class="site__head">
+                <span class="site__num">04</span>
+                <span class="site__region">Ártico · Islandia/Noruega</span>
+              </div>
+              <h3 class="site__title">Boreal Atlas</h3>
+              <p class="site__pitch">Expediciones polares con HUD tipo bitácora científica. Azul hielo + neón aurora, mono para coordenadas y telemetría.</p>
+              <ul class="site__chips" aria-label="Paleta">
+                <li style="background:#0a1929"></li>
+                <li style="background:#112a40"></li>
+                <li style="background:#34f5c5"></li>
+                <li style="background:#b86cff"></li>
+                <li style="background:#eef3f7"></li>
+              </ul>
+              <p class="site__meta"><span>Hielo + aurora</span><span>Space Grotesk / Mono</span><span>eljack69/boreal-atlas</span></p>
+            </div>
+            <span class="site__cta">Visitar →</span>
+          </a>
+        </li>
+
+        <!-- 5 SAHARA NÓMADA -->
+        <li class="site" style="--tone-1:#a86b3e; --tone-2:#1f3a5f;">
+          <a class="site__card" href="https://eljack69.github.io/sahara-nomada/" target="_blank" rel="noopener">
+            <div class="site__media">
+              <img src="https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?auto=format&fit=crop&w=900&q=80" alt="Dunas del desierto al atardecer" loading="lazy" />
+            </div>
+            <div class="site__body">
+              <div class="site__head">
+                <span class="site__num">05</span>
+                <span class="site__region">Desierto · Marruecos/Jordania</span>
+              </div>
+              <h3 class="site__title">Sahara Nómada</h3>
+              <p class="site__pitch">Caravanas por el desierto: dunas, kasbahs y campamentos beduinos. Cálido bohemio refinado con personalidad tribal.</p>
+              <ul class="site__chips" aria-label="Paleta">
+                <li style="background:#f3e8d3"></li>
+                <li style="background:#e8c995"></li>
+                <li style="background:#a86b3e"></li>
+                <li style="background:#3a2517"></li>
+                <li style="background:#1f3a5f"></li>
+              </ul>
+              <p class="site__meta"><span>Arena + bronce</span><span>DM Serif / Cormorant</span><span>eljack69/sahara-nomada</span></p>
+            </div>
+            <span class="site__cta">Visitar →</span>
+          </a>
+        </li>
+
+        <!-- 6 MAREA ALTA -->
+        <li class="site" style="--tone-1:#2dc1d6; --tone-2:#ff6b5b;">
+          <a class="site__card" href="https://eljack69.github.io/marea-alta/" target="_blank" rel="noopener">
+            <div class="site__media">
+              <img src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=900&q=80" alt="Ola perfecta rompiendo en océano tropical" loading="lazy" />
+            </div>
+            <div class="site__body">
+              <div class="site__head">
+                <span class="site__num">06</span>
+                <span class="site__region">Pacífico · Polinesia/Fiji</span>
+              </div>
+              <h3 class="site__title">Marea Alta</h3>
+              <p class="site__pitch">Retiros de surf, vela y buceo en islas remotas. Cyan + coral fresco con catálogo editorial de olas y filtros por nivel.</p>
+              <ul class="site__chips" aria-label="Paleta">
+                <li style="background:#fbf6ee"></li>
+                <li style="background:#2dc1d6"></li>
+                <li style="background:#4fd6c2"></li>
+                <li style="background:#ff6b5b"></li>
+                <li style="background:#324b53"></li>
+              </ul>
+              <p class="site__meta"><span>Cyan + coral</span><span>Familjen / DM Sans</span><span>eljack69/marea-alta</span></p>
+            </div>
+            <span class="site__cta">Visitar →</span>
+          </a>
+        </li>
+
+        <!-- 7 CIMA ALPINA -->
+        <li class="site" style="--tone-1:#1f3a2f; --tone-2:#c79a3f;">
+          <a class="site__card" href="https://eljack69.github.io/cima-alpina/" target="_blank" rel="noopener">
+            <div class="site__media">
+              <img src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=900&q=80" alt="Matterhorn al amanecer con cielo despejado" loading="lazy" />
+            </div>
+            <div class="site__body">
+              <div class="site__head">
+                <span class="site__num">07</span>
+                <span class="site__region">Alpes · Suiza/Dolomitas</span>
+              </div>
+              <h3 class="site__title">Cima Alpina</h3>
+              <p class="site__pitch">Escapadas alpinas refinadas: senderismo, chalets y trenes panorámicos. Verde botánico sobre crema, registro editorial National Geographic.</p>
+              <ul class="site__chips" aria-label="Paleta">
+                <li style="background:#f8f6f1"></li>
+                <li style="background:#1f3a2f"></li>
+                <li style="background:#2d4f3e"></li>
+                <li style="background:#c79a3f"></li>
+                <li style="background:#202820"></li>
+              </ul>
+              <p class="site__meta"><span>Verde + miel</span><span>Cormorant / Inter</span><span>eljack69/cima-alpina</span></p>
+            </div>
+            <span class="site__cta">Visitar →</span>
+          </a>
+        </li>
+      </ol>
+    </section>
+
+    <!-- STACK -->
+    <section class="stack" id="stack" aria-label="Stack técnico">
+      <div class="stack__inner">
+        <h2>Stack</h2>
+        <p class="stack__lede">Las siete landings comparten un stack deliberadamente minimalista. Sin frameworks. Sin build step. Solo lo necesario para que cualquier navegador moderno las renderice instantáneamente.</p>
+        <ul class="stack__grid">
+          <li><strong>HTML5</strong><span>Semántico, accesible, español.</span></li>
+          <li><strong>CSS3</strong><span>Custom properties + grid/flex.</span></li>
+          <li><strong>JS vanilla</strong><span>Sin librerías. Defer + IntersectionObserver.</span></li>
+          <li><strong>Google Fonts</strong><span>Display + sans/mono por sitio.</span></li>
+          <li><strong>Unsplash CDN</strong><span>Imágenes con licencia abierta.</span></li>
+          <li><strong>GitHub Pages</strong><span>Despliegue gratuito en CDN global.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="process" id="proceso" aria-label="Proceso">
+      <div class="process__inner">
+        <h2>Proceso</h2>
+        <ol class="process__steps">
+          <li>
+            <span class="process__num">01</span>
+            <h3>Identidad</h3>
+            <p>Marca ficticia, slug, paleta de 5 tonos, par tipográfico y mood en una sola página de brief.</p>
+          </li>
+          <li>
+            <span class="process__num">02</span>
+            <h3>Arquitectura</h3>
+            <p>6-8 secciones mínimas: nav, hero, destinos, narrativa, testimonio, footer. Variantes opcionales por tema.</p>
+          </li>
+          <li>
+            <span class="process__num">03</span>
+            <h3>Construcción</h3>
+            <p>HTML semántico, CSS con tokens y JS vanilla. Responsive 980/720, accesibilidad básica, SEO mínimo.</p>
+          </li>
+          <li>
+            <span class="process__num">04</span>
+            <h3>Despliegue</h3>
+            <p>Repo individual en GitHub, Pages activadas, URL pública en minutos. Cero infra propia.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__brand">— Portafolio de viajes 2026 —</p>
+      <p class="footer__small">
+        Marcas y datos de contacto son ficticios.
+        Imágenes vía <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>.
+        Construido por <a href="https://github.com/eljack69" target="_blank" rel="noopener">@eljack69</a>.
+        © <span id="year"></span>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
