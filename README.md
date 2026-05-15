@@ -1,6 +1,6 @@
-# Portafolio — 7 landings de viajes
+# Portafolio — 8 proyectos de viajes
 
-Galería estática que agrupa **7 landings** de agencias de viajes ficticias,
+Galería estática que agrupa **8 proyectos** (7 landings ficticias + 1 estudio de variantes sobre un sitio real) de agencias de viajes ficticias,
 cada una con identidad visual, tipográfica y arquitectura propia.
 
 ## URL pública
@@ -17,6 +17,7 @@ cada una con identidad visual, tipográfica y arquitectura propia.
 | 05 | Sahara Nómada | Desierto — arena + bronce | https://eljack69.github.io/sahara-nomada/ |
 | 06 | Marea Alta | Surf / Polinesia — cyan + coral | https://eljack69.github.io/marea-alta/ |
 | 07 | Cima Alpina | Alpes — verde botánico + miel | https://eljack69.github.io/cima-alpina/ |
+| 08 | Territorio Huanca · 5 variantes | Andes Centrales — estudio comparativo de 5 estilos sobre sitio real | https://eljack69.github.io/territoriohuanca-clon/variantes/ |
 
 ## Stack del portafolio (igual que cada sitio)
 HTML5 + CSS3 (custom properties + grid) + JS vanilla.
