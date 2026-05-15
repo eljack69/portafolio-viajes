@@ -280,7 +280,6 @@ code { font-family: var(--f-mono); font-size: .85em; color: var(--c-clay-deep); 
   gap: 1.3rem;
   grid-template-columns: repeat(3, 1fr);
 }
-.sites__grid > li:nth-child(1) { grid-column: span 2; }
 
 .site { position: relative; }
 .site__card {
@@ -569,7 +568,6 @@ code { font-family: var(--f-mono); font-size: .85em; color: var(--c-clay-deep); 
    ============================================ */
 @media (max-width: 1024px) {
   .sites__grid { grid-template-columns: repeat(2, 1fr); }
-  .sites__grid > li:nth-child(1) { grid-column: span 2; }
   .stack__grid { grid-template-columns: repeat(2, 1fr); }
   .process__steps { grid-template-columns: repeat(2, 1fr); }
 }
@@ -581,7 +579,6 @@ code { font-family: var(--f-mono); font-size: .85em; color: var(--c-clay-deep); 
   .nav__suffix { display: none; }
   .hero__meta { gap: 1.25rem; }
   .sites__grid { grid-template-columns: 1fr; }
-  .sites__grid > li:nth-child(1) { grid-column: span 1; }
   .stack__grid { grid-template-columns: 1fr; }
   .process__steps { grid-template-columns: 1fr; }
   .site__cta { opacity: 1; transform: none; bottom: 1.2rem; right: 1.3rem; }
@@ -601,6 +598,8 @@ code { font-family: var(--f-mono); font-size: .85em; color: var(--c-clay-deep); 
   .site:nth-child(5) { animation-delay: .42s; }
   .site:nth-child(6) { animation-delay: .50s; }
   .site:nth-child(7) { animation-delay: .58s; }
+  .site:nth-child(8) { animation-delay: .66s; }
+  .site:nth-child(9) { animation-delay: .74s; }
 }
 @keyframes rise { to { opacity: 1; transform: translateY(0); } }
 
