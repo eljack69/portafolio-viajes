@@ -85,11 +85,12 @@ code { font-family: var(--f-mono); font-size: .85em; color: var(--c-clay-deep); 
 .nav__brand {
   display: inline-flex;
   align-items: center;
-  gap: .65rem;
+  gap: .55rem;
   color: var(--c-ink);
   font-weight: 600;
-  letter-spacing: .22em;
-  font-size: .82rem;
+  letter-spacing: .16em;
+  font-size: .78rem;
+  white-space: nowrap;
 }
 .nav__mark {
   width: 24px; height: 24px;

@@ -1,6 +1,6 @@
-# Portafolio Perú — 9 proyectos de viajes
+# Agencia Studio Gona Live — Portafolio Perú
 
-Galería estática que agrupa **9 proyectos** de tours en el Perú (7 agencias ficticias + 2 miradas sobre Territorio Huanca de Huancayo), cada uno con identidad visual, tipográfica y arquitectura propia.
+**Agencia Studio Gona Live** · Galería estática que agrupa **9 proyectos** de tours en el Perú (7 agencias ficticias + 2 miradas sobre Territorio Huanca de Huancayo), cada uno con identidad visual, tipográfica y arquitectura propia.
 
 ## URL pública
 - https://eljack69.github.io/portafolio-viajes/
